@@ -32,3 +32,12 @@ elif a<0:
 else:
        print(f"{a} is zero ")
 '''
+
+# write a program is even , odd or zero 
+n= int(input("enter your nummber:"))
+if n%2==0:
+    print(f"{n} is even number")
+elif n%2 !=0:
+    print(f"{n} is odd number")
+else:
+    print(f"{n} is zero")
