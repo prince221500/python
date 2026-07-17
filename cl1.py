@@ -167,6 +167,7 @@ else:
     '''
 
 
+
 '''
 #wap to check enter value is spacial char or not
 a= input("enter your char: ")
