@@ -34,6 +34,7 @@ else:
 '''
 
 # write a program is even , odd or zero 
+'''
 n= int(input("enter your nummber:"))
 if n%2==0:
     print(f"{n} is even number")
@@ -41,3 +42,15 @@ elif n%2 !=0:
     print(f"{n} is odd number")
 else:
     print(f"{n} is zero")
+'''
+#write a program to check the char is upper case, lower case  or  numric string 
+# and spacial character
+a = input("enter your char: ")
+if a.isupper():
+    print(f"{a} is upper case")
+elif a.islower():
+    print(f"{a} is lower case")
+elif a.isinstance():
+    print(f"{a} is alphabetic string")
+else:
+    print(f"{a} is special character")
