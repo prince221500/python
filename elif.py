@@ -44,13 +44,16 @@ else:
     print(f"{n} is zero")
 '''
 #write a program to check the char is upper case, lower case  or  numric string 
-# and spacial character
+# alpha numaric , nd spacial character
 a = input("enter your char: ")
 if a.isupper():
     print(f"{a} is upper case")
 elif a.islower():
     print(f"{a} is lower case")
-elif a.isinstance():
+elif a.isalnum():
     print(f"{a} is alphabetic string")
+elif a.isnumeric():
+    print(f"{a} is numaric string ")
 else:
     print(f"{a} is special character")
+     
