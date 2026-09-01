@@ -30,7 +30,7 @@ else:
 
 
 # another code for same  question:- 
-
+'''
 gen=input('enter your gender : ')
 if gen in ['male','female','other']:
     age=int(input('enter your age : '))
@@ -40,5 +40,19 @@ if gen in ['male','female','other']:
         print('you are not eligible to vote')
 else:
     print('invalid gender entered correct gender')
+'''
+
+# wap to check the number is divisible by 3 and 7 or not 
+'''
+n=int (input('enter your number : '))
+if n%3==0:
+    if n%7==0:
+        print(f'{n} is divisible by 3 and 7')
+    else:
+        print(f'{n} is divisible by 3 but not by 7')
+else:
+    print(f'{n} is not divisible by 3') '''
+
+
 
 
