@@ -57,3 +57,7 @@ elif a.isnumeric():
 else:
     print(f"{a} is special character")
      
+
+
+
+     
